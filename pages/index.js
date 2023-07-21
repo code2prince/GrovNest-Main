@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to GrovNest" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Get started 
         </p>
       </main>
 
