@@ -12,7 +12,7 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar/>
+      {/* <Navbar/> */}
       <main>
         <Header title="Welcome to GrovNest" />
         <p className="description">
