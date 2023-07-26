@@ -1,0 +1,22 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  z-index: 99;
+}
+
+.nav_center {
+  max-width: 1120px;
+  margin: 0 auto;
+  background-color: aqua;
+  padding: 1rem;
+}
+
+.nav_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo {
+  color: blue;
+}
