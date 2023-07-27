@@ -12,14 +12,11 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header/>
       {/* <Navbar/> */}
       <main>
-        <Header title="Welcome to GrovNest" />
-        <p className="description">
-          Get started 
-        </p>
       </main>
-      <Contact/>
+      {/* <Contact/> */}
 
       <Footer />
     </div>
