@@ -7,16 +7,43 @@
 .nav_center {
   max-width: 1120px;
   margin: 0 auto;
-  background-color: aqua;
-  padding: 1rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav_header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem 0;
 }
 
-.nav_logo {
-  color: blue;
+.logo {
+  width: 175px;
+  height: 90px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.toggle_btn {
+  display: none;
+}
+
+.nav_links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav_link {
+  padding: 7px 20px;
+  border-radius: 30px;
+  transition: all 0.23s ease-in-out;
+}
+
+.nav_link:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(2, 22, 57, 1);
 }
