@@ -5,7 +5,7 @@
 }
 
 .nav_center {
-  max-width: 1120px;
+  /* max-width: 1120px; */   /*>> Don't style hard coded style */
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;

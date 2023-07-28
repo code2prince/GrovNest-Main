@@ -1,13 +1,15 @@
 import styles from "./Navbar.module.css";
 import { GrMenu } from "react-icons/gr";
+import Image from 'next/image';
 export default function Navbar() {
   return (
     <>
       <nav className={styles.navbar}>
         <div className={styles.nav_center}>
           <div className={styles.nav_header}>
-            {/* <img className={styles.logo} src="./grovelogo.png" alt="" /> */}
-            <h1>LOGO</h1>
+            <img className={styles.logo} src="/grovN.jpg" alt="" />
+            {/* <h1>..</h1> */}
+            
             {/* <GrMenu clasName={styles.toggle_btn} /> */}
           </div>
           <div className={styles.nav_links}>
