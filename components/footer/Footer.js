@@ -1,5 +1,7 @@
 import styles from './Footer.module.css'
-
+import {FaFacebookF} from 'react-icons/fa';
+import {BsInstagram} from 'react-icons/bs';
+import {BsTwitter} from 'react-icons/bs';
 export default function Footer() {
   return (
     <>
@@ -10,10 +12,17 @@ export default function Footer() {
         <ul className={styles.permalinks}>
           <li><a href='#'>Home</a></li>
           <li><a href='#about'>About-Us</a></li>
-          <li><a href='#Experience'>Contact</a></li>
-          <li><a href='#portfolio'>Services</a></li>
-          <li><a href='#contact'>Menu</a></li>
+          <li><a href='#Contact'>Contact</a></li>
+          <li><a href='#services'>Services</a></li>
+          <li><a href='#menu'>Menu</a></li>
         </ul>
+
+
+        <div className={styles.footer__socials}>
+          <a href='https://www.facebook.com/pk.sharma.5070276'><FaFacebookF/></a>
+          <a href='https://www.instagram.com/_the.prince_sharma/'><BsInstagram/></a>
+          <a href='https://twitter.com/PrinceK70404260'><BsTwitter/></a>
+        </div>
 
         <div className={styles.footer__copyright}>
           <small>&copy; GrovNest. All rights reserved</small>

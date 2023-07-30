@@ -22,8 +22,26 @@
   text-decoration: none;
   list-style-type: none;
 }
+.footer__socials{
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
 
-
+.footer__socials a{
+  background-color:rgb(132, 219, 233);
+  color: blue;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+.footer__socials a:hover{
+  background: transparent;
+  background-color: rgb(110, 148, 206);
+  border-radius: rgb(28, 27, 27);
+}
 .footer__copyright{
   color: blue;
 }
