@@ -5,7 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(127, 170, 255);
+  background-color: rgb(27, 43, 74);
+  padding:10px;
 }
 
 .logo {
@@ -19,8 +20,17 @@
   justify-content: center;
   gap: 3rem;
   margin: 0 auto 3rem;
-  text-decoration: none;
-  list-style-type: none;
+  color: #eaeaea;
+  /* text-decoration: none;
+  list-style-type: none; */
+}
+.permalinks_content:hover{
+  color: rgb(174, 219, 41);
+  cursor: pointer;
+  /* background-color: rgba(2, 22, 57, 1);
+  border-radius: 0.7rem;
+  border: 1px solid transparent; */
+
 }
 .footer__socials{
   display: flex;
@@ -39,9 +49,9 @@
 }
 .footer__socials a:hover{
   background: transparent;
-  background-color: rgb(110, 148, 206);
+  background-color: rgb(131, 234, 182);
   border-radius: rgb(28, 27, 27);
 }
 .footer__copyright{
-  color: blue;
+  color: rgb(234, 234, 238);
 }
