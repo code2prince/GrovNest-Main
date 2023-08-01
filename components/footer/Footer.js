@@ -13,14 +13,18 @@ export default function Footer() {
         <div>
           <img src="/grovelogo.png" alt="Netlify Logo" className={styles.logo} />
          
-        
-        <div className={styles.permalinks}>
-          <div className={styles.permalinks_content} href="#">Home</div>
-          <div className={styles.permalinks_content} href="#">AboutUs</div>
-          <div className={styles.permalinks_content} href="#">Contact</div>
-          <div className={styles.permalinks_content} href="#">Services</div>
-          <div className={styles.permalinks_content} href="#">Menu</div>
-        </div>
+        <ul className={styles.permalinks}>
+          <li><a href='#'>Home</a></li>
+          <li>< a  href="/About">About-Us</a></li>
+
+          <li>
+          <Link href="/Contact">
+            <a>Contact </a>
+          </Link>
+          </li>
+          <li><a href='/services'>Services</a></li>
+          <li><a href='/menu'>Menu</a></li>
+        </ul>
 
 
         <div className={styles.footer__socials}>

@@ -20,18 +20,19 @@
   justify-content: center;
   gap: 3rem;
   margin: 0 auto 3rem;
-  color: #eaeaea;
-  /* text-decoration: none;
-  list-style-type: none; */
+  text-decoration: none;
+  list-style-type: none;
 }
-.permalinks_content:hover{
-  color: rgb(174, 219, 41);
-  cursor: pointer;
-  /* background-color: rgba(2, 22, 57, 1);
-  border-radius: 0.7rem;
-  border: 1px solid transparent; */
 
+.permalinks a{
+  color: #eaeaea;
+  text-decoration: none;
 }
+
+.permalinks a:hover{
+  color: aquamarine;
+}
+
 .footer__socials{
   display: flex;
   flex-direction: wrap;

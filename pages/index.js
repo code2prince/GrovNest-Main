@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       {/* <Header /> */}
       <Navbar />
-      {/* <About/> */}
+      <About/>
       <main></main>
       {/* <Contact/> */}
      
