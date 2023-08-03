@@ -1,7 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); */
+
 .container{
     background-color: rgb(194, 225, 254);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 25px;
-    gap: 3rem;
+    gap: 4rem;
 }
