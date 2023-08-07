@@ -28,10 +28,10 @@ export default function Footer() {
 
 
         <div className={styles.footer__socials}>
-          <a href='https://www.facebook.com/pk.sharma.5070276'><FaFacebookF/></a>
-          <a href='#'><BsLinkedin/></a>
-          <a href='https://www.instagram.com/_the.prince_sharma/'><BsInstagram/></a>
-          <a href='https://twitter.com/PrinceK70404260'><BsTwitter/></a>
+          <a href='https://www.facebook.com/groups/1337010443483939/?hoisted_section_header_type=recently_seen&multi_permalinks=1342219862962997'><FaFacebookF/></a>
+          <a href='https://www.linkedin.com/company/grovnestgrowsmarterwithus/'><BsLinkedin/></a>
+          <a href='https://www.instagram.com/grovnest/'><BsInstagram/></a>
+          <a href='https://twitter.com/grovnest'><BsTwitter/></a>
         </div>
 
         <div className={styles.footer__copyright}>
