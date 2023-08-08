@@ -1,16 +1,17 @@
 .Container {
     display: flex;
     grid-template-columns: 13rem;
-    background-color: rgb(52, 171, 231);
+    background-color: rgb(130, 200, 236);
     border-radius: 1rem;
     justify-content: center;
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
     gap: 2rem;
+    margin-bottom: 40px;
 }
 
 .Container:hover {
-    background-color: rgb(113, 133, 197);
+    background-color: rgb(125, 159, 252);
     transition: 1s;
 }
 
