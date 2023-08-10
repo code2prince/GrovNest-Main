@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(27, 43, 74);
+  background-color: rgb(115, 153, 228);
   padding:10px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .permalinks a{
-  color: #eaeaea;
+  color: #080f38;
   text-decoration: none;
 }
 
