@@ -43,7 +43,7 @@
 .nav_link:hover {
   cursor: pointer;
   color: white;
-  background-color: rgba(2, 22, 57, 1);
+  background-color: #021639;
 }
 
 .hide_nav {

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(115, 153, 228);
+  background-color:#62d2f8;
   padding:10px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .permalinks a:hover{
-  color: aquamarine;
+  color: rgb(33, 95, 211);
 }
 
 .footer__socials{
@@ -41,7 +41,7 @@
 }
 
 .footer__socials a{
-  background-color:rgb(132, 219, 233);
+  background-color:#caf0f8;
   color: blue;
   padding: 0.8rem;
   border-radius: 0.7rem;
@@ -50,9 +50,9 @@
 }
 .footer__socials a:hover{
   background: transparent;
-  background-color: rgb(131, 234, 182);
+  background-color:#48c3ea;
   border-radius: rgb(28, 27, 27);
 }
 .footer__copyright{
-  color: rgb(234, 234, 238);
+  color: rgb(23, 23, 192);
 }

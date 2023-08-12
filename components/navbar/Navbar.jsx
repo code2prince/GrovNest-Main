@@ -12,9 +12,9 @@ export default function Navbar() {
         <div className={styles.nav_center}>
           <div className={styles.nav_header}>
             <img className={styles.logo} src="/grovelogo.png" alt="" />
-            <img onClick={(e)=>{handleClick(e)}} id={styles.burger} style={{display:"none", width:"32px", height:"32px"}}  src="/menu1.jpg" alt="" />
+            {/* <img onClick={(e)=>{handleClick(e)}} id={styles.burger} style={{display:"none", width:"32px", height:"32px"}}  src="/menu1.jpg" alt="" />
           </div>
-          <div className={styles.hide_nav}>
+          <div className={styles.hide_nav}> */}
             <div className={styles.nav_link}>Home</div>
             <div className={styles.nav_link}>About</div>
             <div className={styles.nav_link}>Contact</div>
