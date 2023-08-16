@@ -6,6 +6,7 @@ import Navbar from "@components/navbar/Navbar";
 import About from "@components/about/About";
 import Faq from "@components/faq/Faq";
 
+
 export default function Home() {
   return (
     <div className="container">
@@ -14,10 +15,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Header /> */}
-      <Navbar />
-      {/* <About/> */}
-      <main></main>
-      <Faq/>
+    
+     <Navbar />
+      
+      <main>
+      <img src="/aaa.png" alt="" />
+          {/* <About/> */}
+          {/* <Faq/> */}
+      </main>
+      
       {/* <Contact/> */}
      
       <Footer />

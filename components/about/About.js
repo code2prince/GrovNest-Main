@@ -24,6 +24,7 @@ export default function About(){
                         such as education, health, wealth, love, relationship & inspiration.
                         We believe in this phrase - "Penny Penny makes Money"
                     </p>
+                  
                 </div>
             </div>
         </>
