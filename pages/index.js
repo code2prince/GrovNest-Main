@@ -19,7 +19,7 @@ export default function Home() {
      <Navbar />
       
       <main>
-      <img src="/aaa.png" alt="" />
+      {/* <img src="/aaa.png" alt="" /> */}
           {/* <About/> */}
           {/* <Faq/> */}
       </main>
