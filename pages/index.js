@@ -24,7 +24,7 @@ export default function Home() {
           {/* <Faq/> */}
       </main>
       
-      {/* <Contact/> */}
+      <Contact/>
      
       <Footer />
     </div>

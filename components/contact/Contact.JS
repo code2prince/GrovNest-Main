@@ -3,8 +3,26 @@ import {MdOutlineEmail} from 'react-icons/md';
 import {BsWhatsapp} from 'react-icons/bs';
 import styles from './Contact.module.css';
 import { icons } from 'react-icons';
+// import emailjs from 'emailjs';
+import { useRef } from 'react';
 
-export default function Contact(){
+
+ const Contact = ()=>{
+    const form=useRef();
+
+    const sendEmail=(e)=>{
+        e.preventDefalt();
+        emailjs.sendForm('service_dyj893i', 'template_8z2fwtv', form.current, 'd_7dD3HQGaFhRH13B')
+        // .then((result) => {
+        //     console.log(result.text);
+        // }, (error) => {
+        //     console.log(error.text);
+        // });
+        e.target.reset();
+    };
+ 
+ 
+ 
     return (
         <>
             <h2>Contact Us</h2>
@@ -40,3 +58,4 @@ export default function Contact(){
         </>
     )
 }
+export default Contact
